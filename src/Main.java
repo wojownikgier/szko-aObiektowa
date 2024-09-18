@@ -1,13 +1,25 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        Osoba OsobaJas = new Osoba("Jaś" ,"fałdek","7");
 
-        System.out.println(OsobaJas.getImie());
-        System.out.println(OsobaJas.getNazwisko());
-        System.out.println(OsobaJas.getWiek());
+        Osoba osobaJas = new Osoba("Jaś","Śliweczka",10);
+//wywołuję konstruktor klasy Osoba
+        System.out.println(osobaJas.getImie());
+        System.out.println(osobaJas.getNazwisko());
+        osobaJas.setImie("Jan");
 
-        OsobaJas.setImie("marius");
-        System.out.println(OsobaJas.getImie());
+        Osoba osobaAla = new Osoba("Ala", "Fala");
+        System.out.println(osobaJas.getWiek());
+        System.out.println(osobaAla.getWiek());
+        Osoba osobaX = new Osoba();
+
+        System.out.println(osobaJas);
+        System.out.println("Liczba Uczniow"+Uczen.liczbaObiektow);
+        Uczen uczen = new Uczen("Daniel","Nowy");
+        System.out.println("Liczba Uczniow"+Uczen.liczbaObiektow);
+        Uczen uczen2 = new Uczen("Daniela","Nowa");
+        System.out.println("Liczba Uczniow"+Uczen.liczbaObiektow);
+        Uczen uczen3 = new Uczen("Danielo","Stary");
+        System.out.println(uczen3);
+        System.out.println("Liczba Uczniow"+Uczen.liczbaObiektow);
     }
 }
