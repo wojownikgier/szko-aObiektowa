@@ -21,5 +21,8 @@ public class Main {
         Uczen uczen3 = new Uczen("Danielo","Stary");
         System.out.println(uczen3);
         System.out.println("Liczba Uczniow"+Uczen.liczbaObiektow);
+
+        Nauczyciel nauczycielslowik = new Nauczyciel("marek","slowik","25","matematyka");
+        System.out.println(nauczycielslowik);
     }
 }
