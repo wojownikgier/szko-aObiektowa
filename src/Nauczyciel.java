@@ -1,4 +1,4 @@
-public sealed class Nauczyciel extends Osoba permits Wychowawca{
+public sealed class Nauczyciel extends Osoba implements dyzurny permits Wychowawca {
     private String przedmiot;
 
     public Nauczyciel(String imie, String nazwisko, int wiek, String przedmiot) {
@@ -13,4 +13,8 @@ public sealed class Nauczyciel extends Osoba permits Wychowawca{
                 '}';
     }
 
+    @Override
+    public void wyjonajdyzur() {
+        System.out.println("dyzur wpierdolu ucznion");
+    }
 }

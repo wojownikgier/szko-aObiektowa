@@ -1,4 +1,4 @@
-public class Uczen extends Osoba{
+public class Uczen extends Osoba implements dyzurny{
     //poniewaz uczen ma te same wlasnosci co Osoba to będzie klasą potomną klasy Osoba
     //klasa Osoba będzie klasą bazową
 
@@ -26,5 +26,10 @@ public class Uczen extends Osoba{
                 "imie " + getImie() + "nazwisko " +getNazwisko() +
                 "nr_ewidencyjny " + nr_ewidencyjny +
                 '}';
+    }
+
+    @Override
+    public void wyjonajdyzur() {
+        System.out.println("uczen zmazuje twarz kolegi");
     }
 }

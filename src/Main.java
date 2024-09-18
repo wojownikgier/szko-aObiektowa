@@ -24,5 +24,7 @@ public class Main {
 
         Nauczyciel nauczycielslowik = new Nauczyciel("marek","slowik","25","matematyka");
         System.out.println(nauczycielslowik);
+
+        System.out.println();
     }
 }
