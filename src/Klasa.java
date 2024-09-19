@@ -1,16 +1,19 @@
 import java.util.ArrayList;
 
-public class klasa {
+/**
+ *
+ */
+public class Klasa {
     private String nazwaklasy;
     private ArrayList<Uczen> uczniowe;
     private Wychowawca wychowawca;
 
-    public klasa(String nazwaklasy){
+    public Klasa(String nazwaklasy){
         this.nazwaklasy = nazwaklasy;
         uczniowe = new ArrayList<>();
     }
 
-    public  klasa(String nazwaklasy , Wychowawca wychowawca ) {
+    public  Klasa(String nazwaklasy , Wychowawca wychowawca ) {
         this.nazwaklasy = nazwaklasy;
         this.wychowawca = wychowawca;
         uczniowe = new ArrayList<>();

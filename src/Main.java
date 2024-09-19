@@ -33,7 +33,8 @@ public class Main {
         nauczycielslowik.wyjonajdyzur();;
         uczen.wyjonajdyzur();
 
-        klasa klasa_a = new klasa("3a-programista", (Wychowawca) nauczycielslowik);
+        Klasa klasa = new Klasa("3a-programista", (Wychowawca) nauczycielslowik);
 
+        Szkoła zs10 = Szkoła.getSzkoła();
     }
 }

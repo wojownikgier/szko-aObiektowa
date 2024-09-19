@@ -1,4 +1,4 @@
-public class Uczen extends Osoba implements dyzurny{
+public class Uczen extends Osoba implements Dyzurny {
     //poniewaz uczen ma te same wlasnosci co Osoba to będzie klasą potomną klasy Osoba
     //klasa Osoba będzie klasą bazową
 
