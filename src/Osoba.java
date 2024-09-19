@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public abstract class Osoba {
+public class Osoba {
     //klasa abstracjna nie mozna utworzyc obiektu tej klasy ta
     //ta klasa jest wykozystywana w dziediceniu
     private String imie;
