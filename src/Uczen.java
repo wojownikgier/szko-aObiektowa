@@ -18,7 +18,7 @@ public class Uczen extends Osoba implements dyzurny{
         nr_ewidencyjny = liczbaObiektow;
     }
 
-    Osoba text = new Osoba();
+    Osoba text = new Osoba(getImie(), getNazwisko(), getWiek());
 
     @Override
     public String toString() {

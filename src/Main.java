@@ -10,7 +10,10 @@ public class Main {
         Osoba osobaAla = new Osoba("Ala", "Fala");
         System.out.println(osobaJas.getWiek());
         System.out.println(osobaAla.getWiek());
-        Osoba osobaX = new Osoba();
+        String imie = new String();
+        String nazwisko = null;
+        int wiek = 0;
+        Osoba osobaX = new Osoba(imie, nazwisko, wiek);
 
         System.out.println(osobaJas);
         System.out.println("Liczba Uczniow"+Uczen.liczbaObiektow);
@@ -22,9 +25,15 @@ public class Main {
         System.out.println(uczen3);
         System.out.println("Liczba Uczniow"+Uczen.liczbaObiektow);
 
+
+
         Nauczyciel nauczycielslowik = new Nauczyciel("marek","slowik","25","matematyka");
         System.out.println(nauczycielslowik);
 
-        System.out.println();
+        nauczycielslowik.wyjonajdyzur();;
+        uczen.wyjonajdyzur();
+
+        klasa klasa_a = new klasa("3a-programista", (Wychowawca) nauczycielslowik);
+
     }
 }

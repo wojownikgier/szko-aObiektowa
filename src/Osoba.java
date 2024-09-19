@@ -27,10 +27,10 @@ public class Osoba {
 
     }
 
-    public Osoba() {
-        imie = "";
-        nazwisko = "";
-        wiek = 0;
+    public Osoba(String imie, String nazwisko, String wiek) {
+        this.imie = "";
+        this.nazwisko = "";
+        this.wiek = 0;
     }
 
     //metody dostępowe
